@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f2f5f9;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card {
+  width: 650px;
+  max-width: 100%;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+input,
+select {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: #1d4ed8;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #153ea8;
+}
+
+.summary {
+  display: flex;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.summary div {
+  flex: 1;
+  padding: 15px;
+  text-align: center;
+  background: #f1f5f9;
+  border-radius: 10px;
+}
+
+.summary strong,
+.summary span {
+  display: block;
+}
+
+.summary span {
+  font-size: 28px;
+  margin-top: 5px;
+}
+
+h2 {
+  margin-top: 25px;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+}
+
+.record {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-top: 10px;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.record p {
+  margin: 5px 0 0;
+}
+
+.record .delete {
+  margin: 0;
+  background: #dc2626;
+  padding: 8px 12px;
+}
+
