@@ -117,9 +117,18 @@ h2 {
   margin: 5px 0 0;
 }
 
+.status-present {
+  color: #15803d;
+  font-weight: bold;
+}
+
+.status-absent {
+  color: #dc2626;
+  font-weight: bold;
+}
+
 .record .delete {
   margin: 0;
   background: #dc2626;
   padding: 8px 12px;
 }
-
